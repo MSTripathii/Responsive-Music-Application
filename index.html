@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Music App | Coder_MST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <div class="logo">
+                <button class="menu-btn" id="menu-close">
+                    <i class='bx bx-horizontal-left'></i>
+                </button>
+                <i class='bx bx-pulse'></i>
+                <a href="#">Coder_MST</a>
+            </div>
+
+            <div class="menu">
+                <h5>Menu</h5>
+                <ul>
+                    <li>
+                        <i class='bx bx-bolt-circle' ></i>
+                        <a href="#">Explore</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-volume-full' ></i>
+                        <a href="#">Genres</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-photo-album' ></i>
+                        <a href="#">Albums</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bx-microphone' ></i>
+                        <a href="#">Artists</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-radio' ></i>
+                        <a href="#">Podcasts</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="menu">
+                <h5>Library</h5>
+                <ul>
+                    <li>
+                        <i class='bx bx-undo' ></i>
+                        <a href="#">Recent</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-photo-album' ></i>
+                        <a href="#">Albums</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-heart' ></i>
+                        <a href="#">Favourites</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-folder' ></i>
+                        <a href="#">Local</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="menu">
+                <h5>Playlist</h5>
+                <ul>
+                    <li>
+                        <i class='bx bxs-plus-square' ></i>
+                        <a href="#">Create New</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-caret-right-circle' ></i>
+                        <a href="#">Best of 2024</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-caret-right-circle' ></i>
+                        <a href="#">Best of 2023</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bxs-caret-right-circle' ></i>
+                        <a href="#">Raghir</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="playing">
+                <div class="top">
+                    <img src="./Assest/current.png">
+                    <h4>Apple<br>Homepad</h4>
+                </div>
+                <div class="bottom">
+                    <i class='bx bx-podcast' ></i>
+                    <p>Playing  On Device</p>
+                </div>
+            </div>
+
+        </aside>
+
+        <main>
+            <header>
+
+                <div class="nav-links">
+                    <button class="menu-btn" id="menu-open">
+                        <i class='bx bx-menu' ></i>
+                    </button>
+                    <a href="">Music</a>
+                    <a href="">Live</a>
+                    <a href="">Padcast</a>
+                </div>
+
+                <div class="search">
+                    <i class='bx bx-search-alt' ></i>
+                    <input type="text" placeholder="Type here to search">
+                </div>
+
+            </header>
+
+            <div class="trending">
+                <div class="left">
+                    <h5>Top Trending New Songs</h5>
+                    <div class="info">
+                        <h2>Kacha Ghada Hu</h2>
+                        <h4>Raghir</h4>
+                        <h5>100 Million Plays</h5>
+                        <div class="buttons">
+                            <button>Listen Now</button>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </div>
+                </div>
+                <img src="./Assest/trend.png" alt="">
+            </div>
+
+            <div class="playlist">
+                <div class="genres">
+                    <div class="header">
+                        <h5>Genres</h5>
+                        <a href="#">See All</a>
+                    </div>
+
+                    <div class="items">
+                        <div class="item">
+                            <p>Electro<br>pop</p>
+                        </div>
+            
+                        <div class="item">
+                            <p>Dance<br>Beat</p>
+                        </div>
+
+                        <div class="item">
+                            <p>ClubHouse<br>Remix</p>
+                        </div>
+
+                        <div class="item">
+                            <p>Hip-Hop<br>Rap</p>
+                        </div>
+
+                        <div class="item">
+                            <p>Alternative<br>Indie</p>
+                        </div>
+
+                        <div class="item">
+                            <p>Classical<br>Period</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="music-list">
+                    <div class="header">
+                        <h5>Top Songs</h5>
+                        <a href="#">See All</a>
+                    </div>
+
+                    <div class="items">
+                        <div class="item">
+                            <div class="info">
+                                <p>01</p>
+                                <img src="./Assest/song-1.png">
+                                <div class="details">
+                                    <h5>Sunrise</h5>
+                                    <p>Lila Rivera</p>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                                <p>3:45</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow' ></i>
+                                </div>
+                                <i class='bx bxs-plus-square' ></i>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <p>02</p>
+                                <img src="./Assest/song-2.png">
+                                <div class="details">
+                                    <h5>Vogya</h5>
+                                    <p>Tyde Breadman</p>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                                <p>3:00</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow' ></i>
+                                </div>
+                                <i class='bx bxs-plus-square' ></i>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <p>03</p>
+                                <img src="./Assest/song-3.png">
+                                <div class="details">
+                                    <h5>Playdate</h5>
+                                    <p>Olive Ted</p>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                                <p>2:45</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow' ></i>
+                                </div>
+                                <i class='bx bxs-plus-square' ></i>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <p>04</p>
+                                <img src="./Assest/song-4.png">
+                                <div class="details">
+                                    <h5>Legends</h5>
+                                    <p>Ellias Pery</p>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                                <p>2:30</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow' ></i>
+                                </div>
+                                <i class='bx bxs-plus-square' ></i>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <div class="right-section">
+
+            <div class="profile">
+                <i class='bx bxs-bell' ></i>
+                <i class='bx bx-cog' ></i>
+                <div class="user">
+                    <div class="left">
+                        <img src="./Assest/profile.png">
+                    </div>
+                    <div class="right">
+                        <h5>Jhon doe</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music-player">
+                <div class="top-section">
+                    <div class="header">
+                        <h5>player</h5>
+                        <i class='bx bxs-playlist'></i>
+                    </div>
+                    <div class="song-info">
+                        <img src="./Assest/player.png">
+                        <div class="description">
+                            <h3>Ripple Echos</h3>
+                            <h5>Kael Fisher</h5>
+                            <p>Best of 2024</p>
+                        </div>
+                        <div class="progress">
+                            <p>02:45</p>
+                            <div class="active-line"></div>
+                            <div class="deactive-line"></div>
+                            <p>01:02</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="player-actions">
+                    <div class="buttons">
+                        <i class='bx bx-repeat' ></i>
+                        <i class='bx bx-first-page' ></i>
+                        <i class='bx bxs-right-arrow play-button'></i>
+                        <i class='bx bx-last-page' ></i>
+                        <i class='bx bx-transfer-alt' ></i>
+                    </div>
+                    <div class="lyrics">
+                        <i class='bx bx-chevron-up' ></i>
+                        <h5>LYRICS</h5>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="music-player">
+
+                <div class="background" >
+                    <img src="" id="bg-img">
+                </div>
+            
+                <div class="app_box">
+            
+                    <div class="bg_image">
+                        <img src="" class="active" id="player-img">
+                    </div>
+            
+                    <h2 id="Song_title"></h2>
+            
+                    <div class="player_progress" id="player_progress">
+                        <div class="progress" id="progress"></div>
+                            <div class="music-duration">
+                                <span id="curr_time">0:00</span>
+                                <span id="duration">0:00</span>
+                            </div>
+                    </div>
+            
+                    <div class="controls">
+                        <i class='bx bxs-playlist' id="list" title="Playlist"></i>
+                        <div id="playlist">
+                            <div class="songs" id="song1" data-value=0>
+                                <img src="./assets/image/1.jpg">
+                                <p><marquee behavior="scroll" direction="left"> Bholi Si Surat</marquee></p>
+                            </div>
+                            <div class="songs" id="song2" data-value=1>
+                                <img src="./assets/image/3.jpg">
+                                <p><marquee behavior="scroll" direction="left">Deewane Hum Nhi Hote</marquee></p> 
+                            </div>
+                            <div class="songs" id="song3" data-value=2>
+                                <img src="./assets/image/4.jpg">
+                                <p><marquee behavior="scroll" direction="left">Ek Din Pyar</marquee></p> 
+                            </div>
+                            <div class="songs" id="song4" data-value=3>
+                                <img src="./assets/image/2.jpg">
+                                <p><marquee behavior="scroll" direction="left">Hua Hain Aaj Phli Baar</marquee></p> 
+                            </div>
+                            <div class="songs" id="song5" data-value=5>
+                                <img src="./assets/image/6.jpg">
+                                <p><marquee behavior="scroll" direction="left">Jadugar</marquee></p> 
+                            </div>
+                            <div class="songs" id="song6" data-value=4>
+                                <img src="./assets/image/5.webp">
+                                <p><marquee behavior="scroll" direction="left">Masakali</marquee></p> 
+                            </div>
+                            <div class="songs" id="song7" data-value=6>
+                                <img src="./assets/image/7.jpg">
+                                <p><marquee behavior="scroll" direction="left">Mohabbat Se Nhi Waqif</marquee></p> 
+                            </div>
+                            <div class="songs" id="song8" data-value=7>
+                                <img src="./assets/image/8.jpg">
+                                <p><marquee behavior="scroll" direction="left">Phir Bhi Tumko Chahunga</marquee></p> 
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+                        <i class="fa-solid fa-play" title="Play" id="play"></i>
+                        <i class="fa-solid fa-forward" title="Next" id="next"></i>
+                        <i class='bx bx-shuffle' id="shuffle_loop" title="Loop" data-value="loop"></i>
+                        <span class="material-symbols-outlined" id="bx1" data-value="shuffle" title="Shuffle">
+                            repeat_one
+                        </span>
+                    </div>
+            
+                    <div class="volume_wrapper">
+                    <div id="volume">
+                        <i class='bx bxs-volume-full' id="volume_icon" data-value="mute"></i>
+                        <input type="range" value="100" step="5" id="volume_meter">
+                    </div>
+                    <div id="add_your">
+                        <button>Add Music</button>
+                        <button>Remove Music</button>
+                    </div>
+                </div>
+                </div>
+
+            </div> -->
+
+            
+
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
